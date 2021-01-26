@@ -1,0 +1,28 @@
+.wrap {
+    width: 1219px;
+    padding: 0px 55px;
+    margin: 100px auto 0;
+
+}
+
+.header {
+    background-color: #007765;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 20px 0;
+}
+
+.logo {
+    
+}
+
+.logo img {
+    width: 184px;
+    float: left;
+    display: block;
+}
+
+ul li {
+    
+}
