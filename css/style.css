@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .wrap {
     width: 1219px;
     padding: 0px 55px;
     margin: 100px auto 0;
-
+    
 }
 
-.header {
+.top_navi {
     background-color: #007765;
     position: fixed;
     width: 100%;
@@ -13,16 +19,25 @@
     padding: 20px 0;
 }
 
+.header {
+    width: 1219px;
+    margin: 0 auto;
+}
+
 .logo {
-    
+    margin: 0 auto;
 }
 
 .logo img {
     width: 184px;
-    float: left;
-    display: block;
+    display: inline-block;
+    
 }
 
 ul li {
-    
+    display: inline-block;
+}
+
+.r_border {
+    border-right: 1px solid #999999;
 }
