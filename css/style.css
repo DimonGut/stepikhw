@@ -16,16 +16,18 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
-    padding: 20px 0;
+    
+    flex: auto;
 }
 
 .header {
     width: 1219px;
     margin: 0 auto;
+    display: flex;
 }
 
 .logo {
-    margin: 0 auto;
+    
 }
 
 .logo img {
@@ -35,7 +37,7 @@ body {
 }
 
 ul li {
-    display: inline-block;
+    display: flex;
 }
 
 .r_border {
